@@ -29,6 +29,7 @@ const Navbar = () => {
 
   useEffect(() => {
     const token = window.localStorage.getItem("token");
+    // cek token di localstorage
     if (token) {
       setIsLogin(true);
     }
